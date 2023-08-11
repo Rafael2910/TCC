@@ -1,0 +1,239 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}   
+body{
+    background-color: white
+
+    
+}
+.container{
+  
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;  
+}
+
+.header{
+     margin-bottom: 50px;
+    padding: 25px;
+}
+.logo{
+    height: 150px;
+}
+.pesquisa{
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    text-align: center;
+    top: -60px;
+    left: 50px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    max-width: 300px;
+    width: 500px;
+
+}
+.lupa{
+    position: absolute;
+    top: 100px;
+
+}
+.promocao{
+    height: 40px;
+}
+
+.btn1{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30;
+    max-width: 100px;
+    width:200px ;
+
+}
+.btn1:hover{
+    background-color:rgb(44, 44, 139)
+}
+.btn2{
+background-color:green;
+color: white;
+border: none;
+border-radius: 20px;
+    height: 30;
+    max-width: 100px;
+    width:200px ;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    background-color: rgb(25, 220, 25);
+}
+.botoes{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -90px;
+    gap: 15px;
+    margin-right: 100px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.carrinho{
+    height: 40px;
+}
+.coracao1{
+    height: 20px;
+}
+
+.videoMulher{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 200%;
+}
+.sobre{
+    margin-bottom: 1px solid #EBEBEB;
+}
+.casinha{
+    height: 30px;
+}
+
+.vestido{
+    margin-left: 40px;
+    margin-top: 90px;
+    display: flex;
+    height: 400px;
+}
+.preçoVestido{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    color: saddlebrown;
+}
+.preçoAntigo{
+    margin-left: 40px;
+    display: flex;
+    color: rgba(49, 49, 49, 0.136);
+    text-decoration: line-through;
+}
+.adicionar{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -40px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    font-size: small;
+}
+.coracao{
+    position: relative;
+    height: 20px;
+    margin-left: 270px;
+    top: -35px;
+}
+    .tenis{
+        display: flex;
+        margin-top: -480px;
+        margin-left: 430px;
+        height: 400px;
+    
+    }
+    .preçoTenis{
+        margin-top: 20px;
+        margin-left: 430px;
+    display: flex;
+    color: saddlebrown;
+
+    }
+    .outroPreço{
+        display: flex;
+    color: rgba(49, 49, 49, 0.136);
+    text-decoration: line-through;
+    margin-left: 430px;
+    display: flex;
+
+    }
+    .adicionar2{
+        position: absolute;
+    margin-left: 520px;
+    margin-top: -40px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    font-size: small;
+    }
+    .coracao2{
+        position: relative;
+        height: 20px;
+        margin-left: 660px;
+        top: -35px;
+
+    }
+    .saia{
+        display: flex;
+        width: 400px;
+        height: 400px;
+        margin-left: 1100px;
+        margin-top: -480px;
+
+    }
+    .preçoSaia{
+        margin-top: 20px;
+        margin-left: 1100px;
+    display: flex;
+    color: saddlebrown;
+
+    }
+    .preçoAnterior{
+        display: flex;
+        color: rgba(49, 49, 49, 0.136);
+        text-decoration: line-through;
+        margin-left: 1100px;
+        display: flex;
+    
+
+    }
+    .adicionar3{
+        position: absolute;
+        margin-left: 1190px;
+        margin-top: -40px;
+        background-color: black;
+        color: white;
+        border: none;
+        height: 30px;
+        border-radius: 10px;
+        font-size: small;
+    }
+    .coracao3{
+        position: relative;
+        height: 20px;
+        margin-left: 1330px;
+        top: -35px;
+    }
+.zap{
+   
+    height: 50px;
+    padding: 0px 5px;
+
+}
+.face{
+    height: 50px;
+    padding: 0px 5px;
+}
+.youtube{
+    height: 50px;
+    padding: 0px 10px;
+}
+.insta{
+    height: 50px;
+    padding: 0px 5px;
+}

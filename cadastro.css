@@ -1,0 +1,38 @@
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 200px;
+    height: 30px;
+
+}
+
+button{
+
+margin-left: 600px;
+width: 200px;
+height: 30px;
+background-color: blue;
+border: none;
+border-radius: 20px;
+color: white;
+}
+
+.checkbox{
+    height: 20px;
+    margin-left: 720px;
+    margin-top: -40px;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    margin-bottom: 15px;
+    gap: 20px;
+    width: 200px;
+    height: 30px;
+}
