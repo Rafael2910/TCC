@@ -4,14 +4,15 @@
     margin: 0;
 }   
 body{
-    background-color: white
+    background-color: #eee;
 
     
 }
 .container{
   
-    width: 100%;
-    max-width: 1440px;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1920px;
     height: auto;
     margin: 0 auto;  
 }
@@ -109,6 +110,11 @@ border-radius: 20px;
     display: flex;
     height: 400px;
 }
+.vestido:hover{
+    background-color:purple;
+    cursor: pointer;
+
+}
 .preçoVestido{
     margin-left: 40px;
     margin-top: 20px;
@@ -144,6 +150,10 @@ border-radius: 20px;
         margin-left: 430px;
         height: 400px;
     
+    }
+    .tenis:hover{
+        color: aqua;
+        cursor: pointer;
     }
     .preçoTenis{
         margin-top: 20px;
@@ -186,6 +196,11 @@ border-radius: 20px;
         margin-top: -480px;
 
     }
+    .saia:hover{
+        background-image: aqua;
+        cursor: pointer;
+    }
+    
     .preçoSaia{
         margin-top: 20px;
         margin-left: 1100px;
@@ -219,21 +234,54 @@ border-radius: 20px;
         margin-left: 1330px;
         top: -35px;
     }
+    h2{
+        margin-bottom: 10px;
+    }
 .zap{
    
     height: 50px;
-    padding: 0px 5px;
+    padding: 0px 25px;
 
 }
 .face{
     height: 50px;
-    padding: 0px 5px;
+    padding: 0px 25px;
+
 }
 .youtube{
     height: 50px;
-    padding: 0px 10px;
+    padding: 0px 25px;
 }
 .insta{
     height: 50px;
-    padding: 0px 5px;
+    padding: 0px 25px;
+}
+
+.footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.seta{
+    margin-left: 300px;
+    margin-top: -300px;
+    cursor: pointer;
+}
+
+.video{
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header{
+
+    cursor: pointer;
+}
+
+header:hover{
+    background-color: white;
 }
