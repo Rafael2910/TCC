@@ -1,0 +1,136 @@
+/* Isso é importante para retirar os espaçamentos desnecessários da página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+  body{
+    background-color: #eee;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid black;
+  }
+  
+  /* Grid de Produtos */
+  /* Há uma luminosidade muito clara no branco, o que dificulta enxergar. Por isso é melhor usar o #eee, que é um cinza clarinho. */
+  /* neste projeto, o container é a classe pai de todos os elementos dentro do main. */
+  .container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+  
+  .card {
+      width: 31%;
+      display: inline-block;
+      margin: 1% 1%;
+      padding: 15px;
+  }
+  
+  .product-image {
+      height: 300px;
+      width: 100%;
+      margin-bottom: 10px;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  #img-1 {
+  background-image: url('./imagens/saia.jpeg');
+  }
+  
+  #img-2 {
+  background-image: url('./imagens/tenis.jpg');
+  }
+  
+  #img-3 {
+  background-image: url('./imagens/vestido.webp');
+  }
+  
+  #img-4 {
+  background-image: url('../css/tenis4.jpg');
+  }
+  
+  #img-5 {
+  background-image: url('../css/tenis5.jpg');
+  }
+  
+  #img-6 {
+  background-image: url('../css/tenis6.jpg');
+  }
+  
+  h3 {
+  margin-bottom: 10px;
+  color: black;
+  border-left: 5px solid black;
+  padding-left: 7px;
+  font-size: 24px;
+  }
+  
+  .card p {
+      margin-bottom: 10px;
+  }
+  
+  .bold {
+      font-weight: bold;
+  }
+  
+  .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: black;
+      color: #fff;
+      padding: 15px;
+      border-radius: 7px;
+      transition: .5s;
+  }
+  
+  .btn:hover {
+  background-color: rgb(33, 33, 33);
+  }
+  
+  /* Footer */
+  footer {
+      background-color: black;
+      color: #fff;
+      border-top:  3px solid black;
+      text-align: center;
+      padding: 80px;
+  }
+  .zap{
+   
+    height: 50px;
+    padding: 0px 25px;
+
+}
+.face{
+    height: 50px;
+    padding: 0px 25px;
+
+}
+.youtube{
+    height: 50px;
+    padding: 0px 25px;
+}
+.insta{
+    height: 50px;
+    padding: 0px 25px;
+
+}
+
+  
