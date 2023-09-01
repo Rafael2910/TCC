@@ -1,17 +1,18 @@
-
+a {
+    text-decoration: none;
+  }
+  
 .cadastro{
     display:inline-block;
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    border-style: inset;
+    border: 1px solid gray;
     border-radius: 20px;
     max-width: 800px;
-    width: 600px;
     height: 600px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding: 50px;
- 
         position: absolute;
         top: 50%;
         left: 50%;
@@ -26,7 +27,11 @@ input{
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 20%;
+   
+    
+}
+input:hover{
+    border-color:rgb(239, 180, 85) ;
 }
 button{
     cursor: pointer;
@@ -37,7 +42,7 @@ border: none;
 border-radius: 20px;
 color: white;
 position: relative;
-left: 20%;
+
 }
 button:hover{
     background-color: rgb(47, 47, 164);
@@ -46,7 +51,7 @@ button:hover{
 .checkbox{
     height: 20px;
     margin-top: -40px;
-    left: 35%;
+    left: 25%;
 }
 p{
     display: flex;
@@ -57,5 +62,11 @@ p{
     width: 200px;
     height: 30px;
     position: relative;
-    left: 20%;
+}
+span{
+    color: rgb(126, 14, 126);;
+    
+}
+h1{
+    color: rgb(239, 180, 85)
 }

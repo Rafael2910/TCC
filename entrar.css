@@ -26,7 +26,7 @@ a {
 }
 
 .paginaLogin{
-    
+    border:1px solid gray;
     align-items: center;
     justify-content: center;
     padding: 40px;
@@ -53,48 +53,78 @@ button{
 input{
     width: 300px;
     height: 40px;
-    margin-top: 40px;
     border-radius: 10px;
+    border: 1px solid gray;
    
+}
+input:hover{
+    border-color:rgb(239, 180, 85) ;
 }
 
 .googleImagem{
     margin-left: 10px;
 }
+.facebookImagem{
+    margin-left: 10px;
+}
+
 .texto1{
-    margin-left: 20px;
-    margin-top: 5px;
-    color: rgb(126, 14, 126);
+    margin-left: 10px;
+    color: black;
+    border-top: -20px;
+}
+.texto2{
+    margin-left: 10px;
+    color: black;
     border-top: -20px;
 }
 .google{
     cursor: pointer;
     display: flex;
-    background: rgba(158, 158, 158, 0.949);
+    align-items: center;
+    padding: 10px;
+    background: rgb(204, 204, 204);
     max-width: 300px;
     height: 40px;
     border-radius:8px;
-}
-
-.facebookImagem{
-    margin-left: 10px;
-}
-.texto2{
-    margin-left: 20px;
-    margin-top: 5px;
-    color: rgb(126, 14, 126);
-    border-top: -20px;
+    transition: 0.3s;
 }
 .facebook{
     margin-top: 30px;
     cursor: pointer;
     display: flex;
-    background: rgba(158, 158, 158, 0.949);
+    align-items: center;
+    padding: 10px;
+    background:rgb(204, 204, 204);
     max-width: 300px;
     height: 40px;
     border-radius:8px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.google:hover{
+    background-color: rgb(239, 180, 85)
+}
+.facebook:hover{
+    background-color: rgb(239, 180, 85)
 }
 
+.ouLogin{
+    display: flex;
+    justify-content: center; /* centraliza o texto horizontalmente */
+    align-items: center; /* centraliza as linhas verticalmente */
+    margin-bottom: 10px;
+}
+.ouLogin::before,
+.ouLogin::after{
+    content: '';
+    position: relative;
+    height: 2px; /* espessura das linhas */
+    background: rgb(175, 175, 175); /* cor das linhas */
+    min-width: 50px; /* largura mínima das linhas */
+    width: 70px;
+    margin: 20px;
+}
 
 .esqueci{
     cursor: pointer;
