@@ -2,7 +2,7 @@ body{
 
     font-family: "Barlow", sans-serif;
     overflow-x: hidden;
-    background-color: #eee;
+    background-color: white;
 }
 *{
     margin: 0;
@@ -10,16 +10,10 @@ body{
     box-sizing: border-box;
 
 }
-
-.header{
-    width: 100%;
-    padding-top: 30px;
-
-}
-li{
-    list-style: none;
-
-}
+a {
+    text-decoration: none;
+  }
+  
 
 .container{
     max-width: 1920px;
@@ -31,31 +25,25 @@ li{
     padding: 0 30px;
 }
 
-
-.link{
-
-    color: black;
-    text-decoration: none;
-    font-weight: 600;
-    font-style: italic;
-
-}
-
-.link:hover{
-
-    border-bottom: 2px solid red;
-}
-div{
+.paginaLogin{
+    
     align-items: center;
     justify-content: center;
     padding: 40px;
-    background-color: black;
-    max-width: 300px;
+    background-color: transparent;
+    max-width: 500px;
+    height: 600px;
     border-radius: 20px;
+    border-style:inset;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 }
 button{
-    width: 200px;
-    height: 30px;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
     background-color: blue;
     border: none;
     border-radius: 20px;
@@ -63,9 +51,62 @@ button{
 }
 
 input{
-    width: 200px;
-    height: 30px;
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+   
 }
-h1{
-    margin-left: 50px;
+
+.googleImagem{
+    margin-left: 10px;
+}
+.texto1{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: rgb(126, 14, 126);
+    border-top: -20px;
+}
+.google{
+    cursor: pointer;
+    display: flex;
+    background: rgba(158, 158, 158, 0.949);
+    max-width: 300px;
+    height: 40px;
+    border-radius:8px;
+}
+
+.facebookImagem{
+    margin-left: 10px;
+}
+.texto2{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: rgb(126, 14, 126);
+    border-top: -20px;
+}
+.facebook{
+    margin-top: 30px;
+    cursor: pointer;
+    display: flex;
+    background: rgba(158, 158, 158, 0.949);
+    max-width: 300px;
+    height: 40px;
+    border-radius:8px;
+}
+
+
+.esqueci{
+    cursor: pointer;
+    border-bottom: 20px;
+    color: rgb(126, 14, 126);;
+    margin-top: 20px;
+}
+.criarConta{
+    cursor: pointer;
+    border-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(126, 14, 126);;
+    
+
 }

@@ -170,4 +170,10 @@
 
 }
 
-  
+.setas{
+  cursor: pointer;
+ display: flex;
+gap: 960px;
+margin-right: 30px;
+padding: 20px 30px 40px 50px;
+}
