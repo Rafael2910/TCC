@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="entrar.css">
     <title>Meu Site</title>
+    
 </head>
 <body>
    
@@ -34,7 +36,9 @@
               <p class="ouLogin">ou</p>
               <input type="email" placeholder = "Usuario">
               <br><br>
-               <input type="password" placeholder = "Senha">
+               <input type="password" id="senha" placeholder="Senha">
+               <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+               
                  <br><br>
               <button>Entrar</button>
               <p class="esqueci">Esqueceu a Senha?</p>  <a href="./cadastro.html" ><p class="criarConta">Criar Conta</p></a> 
@@ -47,5 +51,6 @@
           </form>
          
 
+          <script src="main.js"></script>
 </body>
 </html>
