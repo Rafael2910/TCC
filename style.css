@@ -49,11 +49,10 @@ body{
 }
 .lupa{
     display: flex;
-    position: absolute;
+    position:absolute;
     top: 100px;
-    left: 30%;
+    left: 25vw;
     
-
 }
 .promocao{
     height: 40px;
@@ -69,10 +68,13 @@ body{
     height: 30;
     max-width: 100px;
     width:200px ;
+    transition: 0.35s ease;
 
 }
 .btn1:hover{
-    background-color:rgb(150, 150, 150)
+    background-color:black;
+    color: white;
+
 }
 .btn2{
 background-color:#394034;
@@ -84,10 +86,11 @@ border-radius: 20px;
     max-width: 100px;
     width:200px ;
     cursor: pointer;
+    transition: 0.35s ease;
 
 }
 .btn2:hover{
-background-color:#424a3d;
+background-color:black;
 
 }
 .botoes{
