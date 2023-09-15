@@ -63,14 +63,3 @@ img6.onclick = function () {
  fecharModal6.onclick = function () {
     modalVestido.close(); 
 };
-
-
-const img7= document.querySelector("#img-7");
-const modalTernoMasculino = document.querySelector(".dialogTernoMasculino");
-const fecharModal7 = modalTernoMasculino.querySelector(".fecharModal7"); 
-img7.onclick = function () {
-    modalTernoMasculino.showModal();
-};
- fecharModal7.onclick = function () {
-    modalTernoMasculino.close(); 
-};

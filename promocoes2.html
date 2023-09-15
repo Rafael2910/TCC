@@ -19,63 +19,15 @@
     <main class="container">
         <section class="products-container">
             <div class="card">
-                <div class="product-image" id="img-7"></div>
+                <div class="product-image" id="img-8"></div>
                 <h3>Camisa Branca Masculina</h3>
                 <p> Camisa Manga Curta Slim....</p>
                 <p>R$ <span class="bold">300,00</span></p>
                 <p> <span class="antigo">R$ 425,00</span></p>
                 <a href="#" class="btn">Comprar</a>
             </div>
-            <dialog class="dialogTernoMasculino">
-            <div class="imagemCTernoMasculino">
-                    <img src="./imagens/ternoMasculino.jpg" alt="" class="modalTernoMasculino">
-                </div>
-    
-                <div class="fecharModal7">
-                    <img src="./imagens/marca-x.png" alt="" class="fecharX">
-                </div>
-                
-                    <div class="infoTernoMasculino">
-                        <div class="descricaoModalTernoMaculino">   
-                            <div class="tituloModalTernoMasculino">
-                                <p>Campeão Zed Tamanho 18cm Skin Base</p>
-                            </div>
-    
-                            <div class="avaliacaoModalTernoMasculino">
-                                <p>5.0 </p><img src="./imagens/avaliacao.png" alt="" class="estrelasTernoMasculino">
-                                <p>| 48 vendidos | 34 avaliações </p>
-                            </div>
-    
-                            <div class="precoModalTernoMasculino">
-                                <p>R$169,99</p>
-                            </div>
-    
-                            <div class="freteModalTernoMasculino">
-                                <img src="./imagens/caminhao.png" alt="" class="caminhaoModal">
-                                <p class="tituloFrete">Frete GRÁTIS para este produto</p>
-                            </div>
-    
-                            <div class="prazoEntrega">
-                                <p>estimativa de entrega entre 15/11/2023 - 29/11/2023</p>
-                            </div>
-    
-                            <div class="botoesComprar">
-                            <button class="adicionarCarrinho">Adicionar ao carrinho</button>
-                            <button class="comprarAgora">Comprar agora</button>
-                            </div>
-                        </div>
-                </div>  
-            </dialog>
-            <div class="card">
-                <div class="product-image" id="img-8"></div>
-                <h3>Tênis Nike Masculino</h3>
-                <p>Tênis Vermelho da Nike ....</p>
-                <p>R$ <span class="bold">450,00</span></p>
-                <p> <span class="antigo">R$ 425,00</span></p>
-                <a href="#" class="btn">Comprar</a>
-            </div>
-            <dialog class="dialog">
-                <div class="imagemZed2">
+            <dialog class="dialogCamisaSocial">
+                <div class="imagemCamisaSocial">
                     <img src="./imagens/camisaSocial.jpg" alt="" class="modalCamisaSocial">
                 </div>
     
@@ -83,10 +35,10 @@
                     <img src="./imagens/marca-x.png" alt="" class="fecharX">
                 </div>
                 
-                    <div class="infoZed">
+                    <div class="infoCamisaSocial">
                         <div class="descricaoModalCamisaSocial">    
                             <div class="tituloModalCamisaSocial">
-                                <p>Campeão Zed Tamanho 18cm Skin Base</p>
+                                <p>Camisa Social Branca </p>
                             </div>
     
                             <div class="avaliacaoModalCamisaSocial">
@@ -95,11 +47,11 @@
                             </div>
     
                             <div class="precoModalCamisaSocial">
-                                <p>R$169,99</p>
+                                <p>R$300,00</p>
                             </div>
     
-                            <div class="freteModalZed">
-                                <img src="../assets/delivery.png" alt="" class="caminhaoModal">
+                            <div class="freteModalCamisaSocial">
+                                <img src="./imagens/caminhao.png" alt="" class="caminhaoModal">
                                 <p class="tituloFrete">Frete GRÁTIS para este produto</p>
                             </div>
     
@@ -116,8 +68,23 @@
                         </div>
                 </div>  
             
-               
-          
+            </dialog>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const img8 = document.querySelector("#img-8");
+                    const modalCamisaSocial = document.querySelector(".dialogCamisaSocial");
+                    const fecharModal8 = modalCamisaSocial.querySelector(".fecharModal8");
+       
+                    img8.addEventListener("click", function () {
+                        modalCamisaSocial.showModal();
+                    });
+       
+                    fecharModal8.addEventListener("click", function () {
+                        modalCamisaSocial.close();
+                    });
+                });
+           
+           </script>
         </section>
         <div class="setas">
             <a href="./promocoes.html"><img src="./imagens/seta-para-a-esquerda.png" alt=""></a>
@@ -144,5 +111,5 @@
    </footer>
     
 </body>
-  <script src="dialog2.js"></script>
+  <script src="dialog.js"></script>
 </html>
